@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 80px;
+  position: relative;
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+}
+
+header > nav {
+  height: fit-content;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header > img {
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+header > nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header > nav > ul > li {
+  display: inline;
+  margin: 0 10px;
+  font-family: "Moderustic", sans-serif;
+  color: rgb(70, 67, 67);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #7f7f7f;
+  color: white;
+  position: relative;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Moderustic", sans-serif;
+  font-weight: 600;
+}
+
+main {
+  background-color: black;
+  position: relative;
+  display: flex;
+}
+
+aside {
+  background-color: #4c0181;
+  color: white;
+  width: 250px;
+  position: relative;
+  top: -2px;
+  padding: 20px 0;
+}
+
+aside > nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside > nav > ul > li {
+  padding: 16px;
+  font-family: "Moderustic", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+aside > nav > ul > li:hover {
+  background-color: #4c0181;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  font-family: "monospace", Calibri;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 7px;
+}
+
+.image {
+  position: relative;
+  height: 300px;
+}
+
+main > section > section > div {
+  border: 2px solid lightgreen;
+  border-color: #000000 black #8fec8f #000000;
+  background: url("/assets/gift/monkey.gif");
+  background-size: cover;
+  background-position: center;
+  width: calc(100% / 3);
+  height: 300px;
+  position: absolute;
+}
+
+#image2 {
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+#image3 {
+  right: 0;
+  margin: auto;
+}
