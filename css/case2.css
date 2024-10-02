@@ -104,12 +104,12 @@ aside > nav > ul > li:hover {
 
 main > section > section > div {
   border: 2px solid lightgreen;
-  border-color: #000000 black #8fec8f #000000;
+  border-color: rgb(129, 68, 68) rgb(129, 68, 68) #8fec8f #8fec8f;
   background: url("/assets/gift/monkey.gif");
   background-size: cover;
   background-position: center;
   width: calc(100% / 3);
-  height: 300px;
+  height: 275px;
   position: absolute;
 }
 

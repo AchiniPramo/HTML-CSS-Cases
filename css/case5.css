@@ -1,0 +1,82 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box {
+  border: 1px solid gray;
+}
+
+.box1 {
+  background-color: #fc0000;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.box2 {
+  background-color: #007f01;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.box3 {
+  background-color: #fd4500;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.box4 {
+  background-color: #80007e;
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.box5 {
+  background-color: #fd1493;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.box6 {
+  background-color: #0000fc;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.box7 {
+  background-color: #a42b2a;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.box8 {
+  background-color: #ec80ed;
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.box9 {
+  background-color: #4b0080;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.box10 {
+  background-color: #fcd600;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.box11 {
+  background-color: #609c9f;
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.box12 {
+  background-color: #00fdfd;
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
